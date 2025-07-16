@@ -1,3 +1,7 @@
 def solution(n, k):
-    answer = (n*12000) + (k*2000) - (n//10*2000)
+    if n >= 10:
+        service = n // 10
+    else:
+        service = 0
+    answer = 12000*n + 2000*(k-service)
     return answer;
