@@ -1,0 +1,10 @@
+A = input()
+B = input()
+C = int(A)*int(B[-1])
+D = int(A)*int(B[-2])
+E = int(A)*int(B[-3])
+F = C + 10*D + 100*E
+print(C)
+print(D)
+print(E)
+print(F)
